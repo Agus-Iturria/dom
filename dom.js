@@ -42,6 +42,7 @@
 //console.log(header.classList.contains("sticky"))
 
 //EJERCICIOS LISTAS
+
 lista1 = ['hola1','hola2','hola3']
 lista2 = ['chau1','chau2','chau3']
 
@@ -49,7 +50,7 @@ let lista1 = document.getElementById("lista1")
 let lista2= document.getElementById("lista2")
 
 for(i = 0; i < lista1.length; i++){
-    let newElement = document.createElement('p')
+    let newElement = document.createElement('li')
     newElement.textContent = lista1[i]
     lista1.append(newElement);
 }
