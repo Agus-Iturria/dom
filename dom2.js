@@ -135,7 +135,7 @@ let createElement = document.querySelector("#create-element");
 let content = document.querySelector(".content");
 createElement.addEventListener("click", function () {
   let newItem = document.createElement("htmtl");
-  newItem.textContent = "Elemento creado";
+  newItem.textContent = "As-salamu alaykum";
   content.append(newItem);
 });
 
@@ -172,3 +172,6 @@ resizeImage.addEventListener("click", function () {
         resizeImage.style.width = "400px";
     }
 });
+
+
+//YesSIR
