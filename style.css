@@ -17,3 +17,26 @@
   gap: 20px;
   justify-content: space-around;
 }
+
+.delete-btn {
+  border-radius: 5px;
+  border-style: dotted;
+  color: red;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.add-btn1,
+.add-btn2 {
+  border-radius: 5px;
+  border-style: dotted;
+  font-size: 15px;
+}
+
+.lista {
+  border-radius: 5px;
+  border-style: solid;
+
+  border: 10px;
+  border-color: brown;
+}
